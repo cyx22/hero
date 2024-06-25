@@ -8,12 +8,12 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --background-rgb: 0, 0, 0;
+    --background-rgb: 245, 245, 245;
   }
 }
 
 body {
-  background:rgb(var(--background-rgb));
+  background: rgb(var(--background-rgb));
 }
 
 @layer utilities {
