@@ -1,3 +1,4 @@
+import React from 'react'
 import Image from 'next/image'
 
 const ul = ['CATALOGUE', 'FASHION', 'FAVOURITE', 'LIFESTYLE']
@@ -70,7 +71,10 @@ export default function Home() {
             <div className="flex flex-row items-center ">
               <div className="flex max-h-[20px] hover:overflow-visible overflow-hidden sm:overflow-visible sm:flex-row flex-col items-center">
                 {ul.map((item, index) => (
-                  <div className="font-['Poppins'] text-[12px] font-[500] mx-[10px]">
+                  <div
+                    key={index}
+                    className="font-['Poppins'] text-[12px] font-[500] mx-[10px]"
+                  >
                     {item}
                   </div>
                 ))}
@@ -84,7 +88,7 @@ export default function Home() {
             <div className="flex flex-row justify-between">
               <div className="font-['Poppins'] text-[20px] sm:text-[50px] font-[900]">
                 <div className="w-full pl-[10px] sm:w-[300px] sm:h-[65px] bg-[url('/images/fontbg1.svg')] bg-no-repeat bg-[length:100%_100%] sm:pl-[40px] sm:leading-[65px]">
-                  LET'S
+                  LET&apos;S
                 </div>
                 <div className="pl-[10px] sm:pl-[40px]  sm:leading-[65px]">
                   EXPLORE
@@ -181,6 +185,7 @@ export default function Home() {
           <div className=" w-full h-[130px] sm:h-[80px] flex flex-wrap sm:flex-row items-center justify-center">
             {imgs.map((img, index) => (
               <Image
+                key={img.alt}
                 className="mx-[20px] my-[5px]"
                 src={img.src}
                 alt={img.alt}
