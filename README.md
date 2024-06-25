@@ -12,6 +12,7 @@ yarn dev
 pnpm dev
 # or
 bun dev
+<<<<<<< HEAD
 
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
@@ -34,3 +35,9 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+=======
+```
+参考UI 
+https://www.figma.com/design/KCA4MXgDw4Y7pg56DllT3r/Shopping-Website-(Community)?node-id=2-643&t=9KlLGqCsQbyo5KZL-0
+
+>>>>>>> 6e5b760a6454da6600271748dcf1231a3fe0ebe7
